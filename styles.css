@@ -90,6 +90,21 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65a50;
+}
+
 .menu {
     padding: 40px 20px;
     text-align: center;
